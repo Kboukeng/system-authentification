@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0 0.25rem;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+h5{
+    font-size: 16px;
+}
+p{
+    font-size: 15px;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(5, 0, 0, 0.635)),  url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDBrs7mA371OSKweDICXxlXJx6do6Nx8l6h6Z8pqCO9Q&s");
+    background-size: cover;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.enviroment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.area{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 25px;
+}
+
+.card{
+    border: 2px solid rgb(239, 123, 6);
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    width: 15rem;
+    height: 20rem;
+    padding: 10px;
+    transition: all 0.65s ease;
+}
+.card img{
+    height: 9rem;
+    width: 10rem;
+    border-radius: 100rem;
+    margin: 15px 0;
+}
+.card h4{
+    margin: 10px 0;
+}
+
+.card:hover{
+    background: rgb(239, 128, 0);
+    color: aliceblue;
+    box-shadow: 0 0.5rem 0.5rem rgb(2, 2, 247);
+    z-index: 1;  
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    align-items: center;
+    
+}
+
+.wrapper{
+    /* border: 2px dotted blue; */
+    width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    display: flex;
+    height: 220px;
+    justify-content: space-around;
+    background: #010696;
+    color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid;
+    z-index: 1;
+    box-shadow: 0 0.15rem 0.15rem rgb(250, 135, 4);
+}
+.wrapper img{
+    height: 10rem;
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+.card__details{
+  padding-top: 30px;
+  text-align: left;
+  justify-content: space-between;
+}
+
+footer {
+    background-color: #041055;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .container{
+    margin: 30px 0;
+  }
+
+footer img{
+    height: 1.5rem;
+    width: 2.5rem;
+    gap: 3px;
+    margin-top: 3px;
+}
